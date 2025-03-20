@@ -12,17 +12,13 @@ public class Cart {
             System.out.println("You can add 1 more item");
         }
         itemsOrdered[qtyOrdered] = item;
+        System.out.println("You've just added " + item.getTitle() + " to the cart");
         qtyOrdered++;
     }
 
     public void addDigitalvideoDisc(DigitalVideoDisc[] items) {
         for (DigitalVideoDisc item : items) {
-            if (qtyOrdered == MAX_NUMBERS_ORDER) {
-                System.out.println("The cart is full, cannot add more DVDs.");
-                return;
-            }
-            itemsOrdered[qtyOrdered] = item;
-            qtyOrdered++;
+            addDigitalvideoDisc(item);
         }
     }
 
