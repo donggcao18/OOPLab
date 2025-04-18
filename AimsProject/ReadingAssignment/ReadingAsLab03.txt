@@ -1,0 +1,12 @@
+1. Advantages of Polymorphism:
+- Allows the same method to work with objects of different types.
+- Simplifies code by using a common interface for different classes.
+- Enhances flexibility and extensibility without modifying existing code.
+
+2. How Inheritance Achieves Polymorphism:
+- Inheritance allows subclasses to override methods from a superclass.
+- This enables polymorphism, where a superclass reference can point to subclass objects and invoke the correct method based on the object’s actual type.
+
+3. Differences Between Polymorphism and Inheritance:
+- Inheritance is about creating a hierarchy (parent-child relationship) for code reuse.
+- Polymorphism allows different classes to respond to the same method call in their own way, achieved using inheritance or interfaces.
